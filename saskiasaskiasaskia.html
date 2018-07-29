@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selamat Datang | Galaxy Camera</title>
+	<link rel="stylesheet" type="text/css" href="karyawan.css">
+</head>
+<body>
+	<header id="main-header">
+		<h1>Galaxy Camera</h1>
+	</header>
+	<div class="periode">	
+		<p>PERIODE JULI 2018</p>	
+	</div>
+<div class="biodata">
+	<p class="fixed">Nama : Saskia Ayu Kaleh </p>
+	<p>Jabatan : Front Liner</p>
+	<p>Sistem Pembayaran : Transfer Bank</p>
+	<p>Nomor Rekening : ######</p>
+	<p>Jumlah OFFDAY : 4 Hari</p>
+</div>
+
+<!--<button class="show" onclick="myFunction()">SLIP GAJI</button>-->
+
+<div class="gaji" id="gaji">	
+	<h3>Slip Gaji</h3>
+	<p>Status : PENDING</p>
+	<p>Gaji Pokok : #######</p>
+	<p>Tunjangan : ######</p>
+	<p>Tunjangan OFFDAY : ######</p>
+	<p>Potongan Pinjaman : </p>
+	<p>Sisa Pinjaman : </p>
+	<p class="total">TOTAL : </p>
+</div>
+<div class="line"></div>
+
+<!--<button class="show" onclick="myBonus()">BONUS INSENTIF</button>-->
+<div class="insentif" id="insentif">
+	<h3>Bonus Insentif</h3>
+	<p>Bonus : ######</p>
+	<p>Potongan : ######</p>
+	<p>Status : PENDING </p>
+	<p class="total">TOTAL : </p>
+</div>
+<div class="line"></div>
+<div class="info">
+<p>INFO : Bonus insentif akan ditransfer setiap bulan nya pada tanggal 3 atau paling lambat tanggal 15, Absensi masuk otomatis akan mempengaruhi Bonus Insentif apabila ada keterlambatan absensi setiap hari nya.</p>
+</div>
+
+<div class="info">
+<p>INFO : Untuk setiap OFFDAY yang di skip atau tidak diambil akan di ganti sebesar 150rb, Khusus untuk OFFDAY yang diskip 1 Bulan Full atau 4x maka akan mendapatkan pergantian sebesar 1 juta rupiah, untuk OFFDAY yang diskip kurang dari 4x maka hitungan pergantian akan dihitung normal atau dikali sebesar 150rb.</p>
+</div>
+<div class="kosong"></div>
+
+<script type="text/javascript">
+	function myFunction() {
+    var x = document.getElementById("gaji");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+<script type="text/javascript">
+	function myBonus() {
+    var x = document.getElementById("insentif");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
