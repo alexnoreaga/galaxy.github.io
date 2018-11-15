@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Login Data</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body class="body">
-	<div class="header">
-	<header>
-		<h1>GALAXY CAMERA</h1>
-	</header>
-	</div>	
-
-	<form class="my-form">
-		<div class="form-group">
-			<label>Nama : </label>
-			<input type="text" name="username" id="username">
-		</div>
-		<div class="form-group">
-			<label>Password : </label>
-			<input class="password" type="password" name="password" id="password">
-		</div>
-			<input class="button" type="submit"
-				value="Submit" onclick="check(this.form)" name="">	
-	</form>
-
-	<div>
-		<footer>
-			<p>Copyright 2018 Galaxy Camera</p>
-		</footer>	
-	</div>
-<!--
-<script language="javascript">
-            function check(form) { /*function to check userid & password*/
+function check(form) { /*function to check userid & password*/
                 /*the following code checkes whether the entered userid and password are matching*/
                 if(form.username.value == "arifinc" && form.password.value == "acen9999")
                  {
@@ -78,8 +44,3 @@
                     alert("Error Password or Username")/*displays error message*/
                 }
             }
-        </script>
-
-        --->
-</body>
-</html>
