@@ -45,6 +45,12 @@ function check(form) { /*function to check userid & password*/
                  {
                     window.open("lilis.html")/*opens the target page while Id & password matches*/
                 }
+
+                 if(form.username.value == "avidadwi" && form.password.value == "avida123")
+                 {
+                    window.open("avida.html")/*opens the target page while Id & password matches*/
+                }
+
                 else {
                     alert("Error Password or Username")/*displays error message*/
                 }
