@@ -40,6 +40,11 @@ function check(form) { /*function to check userid & password*/
                  {
                     window.open("heriwongwong.html")/*opens the target page while Id & password matches*/
                 }
+
+                 if(form.username.value == "lilisfitriani" && form.password.value == "liliswong")
+                 {
+                    window.open("lilis.html")/*opens the target page while Id & password matches*/
+                }
                 else {
                     alert("Error Password or Username")/*displays error message*/
                 }
