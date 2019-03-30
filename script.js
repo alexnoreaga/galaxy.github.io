@@ -4,9 +4,9 @@ function check(form) { /*function to check userid & password*/
                  {
                     window.open("arifin.html")/*opens the target page while Id & password matches*/
                 }
-                if(form.username.value == "nuruldai" && form.password.value == "nuruldai")
+                if(form.username.value == "selvy" && form.password.value == "selvy1234")
                  {
-                    window.open("sundarinurul.html")/*opens the target page while Id & password matches*/
+                    window.open("selvy.html")/*opens the target page while Id & password matches*/
                 }
                 if(form.username.value == "rudyismawan" && form.password.value == "rudyrudy")
                  {
