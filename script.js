@@ -1,3 +1,11 @@
+var bulan = "Juni 2019"
+var statusgaji = "Status : TRANSFER BERHASIL 31/07/2019"
+var statusbonus = "Status : TRANSFER BERHASIL 15/07/2019"
+
+document.getElementById("bulan").innerHTML = bulan;
+document.getElementById("statusgaji").innerHTML = statusgaji;
+document.getElementById("statusbonus").innerHTML = statusbonus;
+
 function check(form) { /*function to check userid & password*/
                 /*the following code checkes whether the entered userid and password are matching*/
                 if(form.username.value == "arifinc" && form.password.value == "acen9999")
@@ -49,6 +57,22 @@ function check(form) { /*function to check userid & password*/
                  if(form.username.value == "avidadwi" && form.password.value == "avida123")
                  {
                     window.open("avida.html")/*opens the target page while Id & password matches*/
+                }
+
+                 if(form.username.value == "alenghen" && form.password.value == "alenghen999")
+                 {
+                    window.open("aleng.html")/*opens the target page while Id & password matches*/
+                }
+
+
+                 if(form.username.value == "nakoda" && form.password.value == "nakoda456")
+                 {
+                    window.open("nakoda.html")/*opens the target page while Id & password matches*/
+                }
+
+                if(form.username.value == "bayusetiadi" && form.password.value == "bayu345")
+                 {
+                    window.open("bayu.html")/*opens the target page while Id & password matches*/
                 }
 
                 else {
