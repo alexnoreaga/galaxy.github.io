@@ -1,6 +1,6 @@
 var bulan = "September 2019"
 var statusgaji = "Status : TRANSFER BERHASIL 30/09/2019"
-var statusbonus = "Status : TRANSFER BERHASIL 15/09/2019"
+var statusbonus = "Status : TRANSFER BERHASIL 15/10/2019"
 
 document.getElementById("bulan").innerHTML = bulan;
 document.getElementById("statusgaji").innerHTML = statusgaji;
