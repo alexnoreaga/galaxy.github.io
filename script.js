@@ -1,4 +1,4 @@
-var bulan = "September 2019"
+var bulan = "Oktober 2019"
 var statusgaji = "Status : TRANSFER BERHASIL 31/10/2019"
 var statusbonus = "Status : TRANSFER BERHASIL 15/09/2019"
 
