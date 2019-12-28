@@ -36,9 +36,9 @@ function check(form) { /*function to check userid & password*/
                  {
                     window.open("andiniandiniandini.html")/*opens the target page while Id & password matches*/
                 }
-                if(form.username.value == "denis" && form.password.value == "denis234")
+                if(form.username.value == "sianagustian" && form.password.value == "agusagus123")
                  {
-                    window.open("denisdens.html")/*opens the target page while Id & password matches*/
+                    window.open("sianagustian.html")/*opens the target page while Id & password matches*/
                 }
                 if(form.username.value == "saskiaayu" && form.password.value == "saskia999")
                  {
