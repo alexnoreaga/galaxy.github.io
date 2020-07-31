@@ -1,6 +1,6 @@
-var bulan = "April 2020"
-var statusgaji = "Status : TRANSFER BERHASIL 30 April 2020"
-var statusbonus = "Status : TRANSFER BERHASIL 01/05/2020"
+var bulan = "Juli 2020"
+var statusgaji = "Status : TRANSFER BERHASIL 31 Juli 2020"
+var statusbonus = "Status : BONUS JUNI- JULI 2020 TRANSFER BERHASIL 31 Juli 2020"
 
 document.getElementById("bulan").innerHTML = bulan;
 document.getElementById("statusgaji").innerHTML = statusgaji;
